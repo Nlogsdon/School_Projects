@@ -1,0 +1,15 @@
+# Nicholas Logsdon 
+# 02/15/2021
+# Had to make recalled true if given parameters below
+if modelYear > 1998 and modelYear < 2003:
+	if modelName == "Extravagant":
+		recalled = True
+	else:
+		recalled = False
+elif modelYear > 2003 and modelYear < 2008:
+	if modelName == "Guzzler":
+		recalled = True
+	else:
+		recalled = False
+else:
+	recalled = False
